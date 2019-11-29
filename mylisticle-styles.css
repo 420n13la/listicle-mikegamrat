@@ -1,0 +1,66 @@
+body {
+   text-align: center;
+   background-color:crimson;
+}
+#me img {
+    width: 100px;
+    border-radius: 100%;
+    margin-top:-50px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-image:url("mic.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+      background-size: cover;
+    height: 500px;
+}
+#rappers div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    text-align: left;
+}
+#info {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 33px;
+}
+.name {
+    font-size: 33px;
+    font-weight: bold;
+}
+.title {
+    font-size: 48px;
+    color:white;
+    max-width: 780px;
+}
+.updated{
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 2px solid crimson;
+}
+.number {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: inherit;
+}
+.link {
+    color:crimson;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.link:hover {
+    text-decoration: none;
+}
+.para {
+    font-size: 22px;
+    line-height: 32px;
+}
+.images {
+    width: 100%;
+    margin-bottom: 120px;
+  margin-top: 30px;
+}
